@@ -6,7 +6,7 @@
     <RouterView />
 
     <p class="mt-3">
-      Crafted by <a class="text-blue-400" href="https://github.com/naythukhant">Nay Thu Khant</a>
+      <a class="text-blue-400" href="https://github.com/naythukhant">Nay Thu Khant</a>
     </p>
   </div>
 </template>
