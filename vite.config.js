@@ -9,7 +9,18 @@ export default defineConfig({
     plugins: [
         vue(),
         VitePWA({
-            manifest: true
+            manifest: {
+                name: "မြန်မာ့ရွှေ",
+                short_name: "မြန်မာ့ရွှေ",
+                icons: [
+                    {
+                        src: "/icons/512.jpeg",
+                        sizes: "512x512",
+                        type: "image/jpeg",
+                        purpose: "any maskable"
+                    }
+                ]
+            }
         })
     ],
     resolve: {
