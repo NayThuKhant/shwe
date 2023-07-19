@@ -9,6 +9,7 @@ export default defineConfig({
     plugins: [
         vue(),
         VitePWA({
+            registerType: "autoUpdate",
             manifest: {
                 name: "မြန်မာ့ရွှေ",
                 short_name: "မြန်မာ့ရွှေ",
